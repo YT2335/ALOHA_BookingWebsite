@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>ALOHA</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar container">
+        <!-- 漢堡選單 -->
+        <div class="hamburger-btn">
+          <span></span>
+        </div>
+
+        <a href="#">
+          <img src="./IMG/logo-aloha.svg" alt="aloha logo" class="logo" />
+        </a>
+
+        <div class="language">
+          <span class="material-icons"> language </span>
+          <span class="material-icons"> arrow_drop_down </span>
+        </div>
+
+        <a href="#" class="signup-btn">Sign up</a>
+        <a href="#" class="login-btn">Login</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <!-- Hero Slider -->
+        <div class="hero-silder">
+          <div class="hero-img"></div>
+          <div class="hero-text">
+            <span class="material-icons"> chevron_left </span>
+            <h2 class="font-title">Discover your ideal hotel</h2>
+            <span class="material-icons"> chevron_right </span>
+          </div>
+        </div>
+        <!-- Search Box -->
+        <div class="search-box">
+          <div class="search-item">
+            <span class="material-icons"> location_on </span>
+            <p>Destination</p>
+          </div>
+          <div class="search-item">
+            <span class="material-icons"> date_range </span>
+            <p>Check-in / Check-out</p>
+          </div>
+          <div class="search-item">
+            <span class="material-icons"> person </span>
+            <p>Guests</p>
+          </div>
+          <button type="button" class="search-btn">SEARCH</button>
+        </div>
+      </section>
+
+      <section class="top-choices">
+        <h3 class="font-title">TOP Choices</h3>
+        <div class="tab-list">
+          <button type="button" class="tab font-title active">Bali</button>
+          <button type="button" class="tab font-title">Okinawa</button>
+          <button type="button" class="tab font-title">Taipei</button>
+        </div>
+
+        <div class="tab-content">
+          <div class="card">
+            <div class="card-img">
+              <img src="./IMG/top1.jpg" alt="top1" />
+            </div>
+            <div class="card-body">
+              <h4>Hotel Aqua</h4>
+              <div class="rating">
+                <span class="material-icons"> star </span>
+                <span class="material-icons"> star </span>
+                <span class="material-icons"> star </span>
+                <span class="material-icons"> star </span>
+                <span class="material-icons"> star </span>
+                <p>5.0</p>
+                <span class="reviews">・2k reviews</span>
+              </div>
+              <p class="price">TWD2,480 <span>TWD3,980</span></p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./IMG/top2.jpg" alt="top2" />
+            </div>
+            <div class="card-body">
+              <h4>Mr. Kawasaki Inn</h4>
+              <div class="rating">
+                <span class="material-icons"> star </span>
+                <span class="material-icons"> star </span>
+                <span class="material-icons"> star </span>
+                <span class="material-icons"> star </span>
+                <p>4.0<span>・500 reviews</span></p>
+              </div>
+              <p class="price">TWD 3,380</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./IMG/top3.jpg" alt="top3" />
+            </div>
+            <div class="card-body">
+              <h4>Mr. Kawasaki Inn</h4>
+              <div class="rating">
+                <span class="material-icons"> star </span>
+                <span class="material-icons"> star </span>
+                <span class="material-icons"> star </span>
+                <span class="material-icons"> star </span>
+                <p>4.0<span>・500 reviews</span></p>
+              </div>
+              <p class="price">TWD 3,380</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./IMG/top4.jpg" alt="top4" />
+            </div>
+            <div class="card-body">
+              <h4>Mr. Kawasaki Inn</h4>
+              <div class="rating">
+                <span class="material-icons"> star </span>
+                <span class="material-icons"> star </span>
+                <span class="material-icons"> star </span>
+                <span class="material-icons"> star </span>
+                <p>4.0<span>・500 reviews</span></p>
+              </div>
+              <p class="price">TWD 3,380</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="popular">
+        <h3 class="font-title">Popular Destinations</h3>
+        <div class="accordion">
+          <div class="accordion-item">
+            <img src="./IMG/Osaka.jpg" alt="Osaka" />
+
+            <div class="accordion-content">
+              <p>JAPAN</p>
+              <h4 class="font-title">Osaka</h4>
+              <span class="material-icons"> keyboard_arrow_down </span>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <img src="./IMG/Kyoto.jpg" alt="Kyoto" />
+
+            <div class="accordion-content">
+              <p>JAPAN</p>
+              <h4 class="font-title">Kyoto</h4>
+              <span class="material-icons"> keyboard_arrow_down </span>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <img src="./IMG/Reykjavic.jpg" alt="Reykjavík" />
+
+            <div class="accordion-content">
+              <p>ICELAND</p>
+              <h4 class="font-title">Reykjavík</h4>
+              <span class="material-icons"> keyboard_arrow_down </span>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <img src="./IMG/Paris.jpg" alt="Paris" />
+
+            <div class="accordion-content">
+              <p>FEANCE</p>
+              <h4 class="font-title">Paris</h4>
+              <span class="material-icons"> keyboard_arrow_down </span>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <img src="./IMG/Roman.jpg" alt="Roman" />
+
+            <div class="accordion-content">
+              <p>ITALY</p>
+              <h4 class="font-title">Roman</h4>
+              <span class="material-icons"> keyboard_arrow_down </span>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <img src="./IMG/Bangkok.jpg" alt="Bangkok" />
+
+            <div class="accordion-content">
+              <p>THAILAND</p>
+              <h4 class="font-title">Bangkok</h4>
+              <span class="material-icons"> keyboard_arrow_down </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="inspiration">
+        <div class="inspiration-title">
+          <h3 class="font-title">Get Inspiration</h3>
+          <button type="button" class="inspiration-btn">SEE MORE</button>
+        </div>
+        <div class="inspiration-cards">
+          <div class="card">
+            <div class="card-img">
+              <img src="./IMG/italy.jpg" alt="italy" />
+            </div>
+            <div class="card-body">
+              <h3 class="font-title">The fifth most visited country</h3>
+              <p>
+                Italy is the fifth most visited country in the world, with a
+                total of 52.3 million…
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./IMG/Thailand.jpg" alt="Thailand" />
+            </div>
+            <div class="card-body">
+              <h3 class="font-title">Visit Thailand for Bangkok</h3>
+              <p>
+                Asian tourists primarily visit Thailand for Bangkok and the
+                historical, natural, and…
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./IMG/NewZealand.jpg" alt="NewZealand" />
+            </div>
+            <div class="card-body">
+              <h3 class="font-title">Lord of the Rings Tour</h3>
+              <p>
+                The national cuisine has been described as Pacific Rim,
+                incorporating the…
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="subscribe">
+        <h3 class="font-title">Subscribe for Exclusive Offer</h3>
+        <div class="subscribe-item">
+          <p>Your email address</p>
+          <button type="button" class="subscribe-btn">SUBSCRIBE</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-settings">
+        <div class="setting-item">
+          <span class="material-icons"> language </span>
+          <p>English</p>
+          <span class="material-icons"> arrow_drop_down </span>
+        </div>
+        <div class="setting-item">
+          <span class="material-icons"> attach_money </span>
+          <p>TWD</p>
+          <span class="material-icons"> arrow_drop_down </span>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#">FAQs</a>
+        <a href="#">Terms of use</a>
+        <a href="#">Privacy policy</a>
+      </div>
+      <div class="copyright">
+        <p>© 2020 ALOHA, Inc. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
